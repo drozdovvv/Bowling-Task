@@ -1,0 +1,33 @@
+.dialog-bg{
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.dialog{
+  position: fixed;
+  top: calc(50% - 7rem);
+  left: calc(50% - 12rem);
+  background: darkseagreen;
+  color: white;
+  padding: 1rem 3rem;
+}
+
+button {
+  margin-right: 8px;
+  margin-top: 1rem;
+}
+
+.yes-btn{
+  background: #036b00;
+}
+
+.no-btn{
+  background: #9b0000;
+}
+
+.mat-mdc-dialog-actions{
+  justify-content: end;
+}
